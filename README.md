@@ -39,7 +39,7 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/your_username/bank-marketing-prediction.git
+git clone https://github.com/HIRAARIFJK/bank-marketing-prediction.git
 cd bank-marketing-prediction
 Prepare the Environment: Ensure all dependencies are installed:
 
