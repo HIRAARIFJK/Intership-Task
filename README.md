@@ -1,30 +1,27 @@
 ## Bank Marketing Campaign Analysis
 This project analyzes a bank's marketing campaign using Machine Learning techniques to predict whether a client will subscribe to a term deposit. The project uses feature selection, model training, and evaluation to provide actionable insights into campaign performance.
 ## Key Features
-- **Dataset Analysis:**
-Preprocessed the bank marketing dataset to handle missing values and categorical data effectively.
-- **Feature Selection:**
-
-Used correlation analysis, mutual information, and ANOVA F-value to identify the most important features.
-- **Model Training:**
-
-Trained three models—Logistic Regression, Decision Tree, and Random Forest.
+**Dataset Analysis:**
+- Preprocessed the bank marketing dataset to handle missing values and categorical data effectively.
+**Feature Selection:**
+- Used correlation analysis, mutual information, and ANOVA F-value to identify the most important features.
+**Model Training:**
+- Trained three models—Logistic Regression, Decision Tree, and Random Forest.
 Conducted 5-fold cross-validation to evaluate model performance.
-- **Evaluation:**
-
-Assessed models using metrics such as Accuracy, Precision, Recall, and F1-Score.
-Identified key features contributing to predictions using Random Forest importance and Logistic Regression coefficients.
+**Evaluation:**
+- Assessed models using metrics such as Accuracy, Precision, Recall, and F1-Score.
+- Identified key features contributing to predictions using Random Forest importance and Logistic Regression coefficients.
 ## Dataset
 The dataset contains client and campaign-related information. The target variable is y, indicating whether the client subscribed to a term deposit (yes or no).
 
-- **Key Attributes:**
+**Key Attributes:**
 
 - Client Information: Age, job, marital status, education, etc.
 - Campaign Data: Contact type, last contact duration, number of contacts, etc.
 = Target Variable: y (subscription status).
 The dataset is available publicly on the UCI Machine Learning Repository: Bank Marketing Dataset
 ## Steps to Run the Project
-- **1. Environment Setup**
+**1. Environment Setup**
 Install the required libraries:
 pip install -r requirements.txt
 Example requirements.txt:
@@ -33,10 +30,10 @@ numpy
 matplotlib
 seaborn
 scikit-learn
-- **2. Dataset Preparation**
-Download the dataset and place it in the data/ directory.
-Ensure the file is named bank.csv or update the script with the correct file path.
-- **3. Run the Scripts**
+**2. Dataset Preparation**
+- Download the dataset and place it in the data/ directory.
+- Ensure the file is named bank.csv or update the script with the correct file path.
+**3. Run the Scripts**
 - Feature Selection:
 Identifies and visualizes the top features.
 Run:
