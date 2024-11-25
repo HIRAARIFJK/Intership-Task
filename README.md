@@ -19,7 +19,6 @@ The dataset contains client and campaign-related information. The target variabl
 - Client Information: Age, job, marital status, education, etc.
 - Campaign Data: Contact type, last contact duration, number of contacts, etc.
 = Target Variable: y (subscription status).
-The dataset is available publicly on the UCI Machine Learning Repository: Bank Marketing Dataset
 ## Steps to Run the Project
 **1. Environment Setup**
 Install the required libraries:
